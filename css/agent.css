@@ -1,0 +1,413 @@
+
+body
+{
+    margin: 0;
+}
+
+
+/* header+navbar */
+.header{
+    background-image: linear-gradient(to right, rgb(21, 34, 51) , rgb(3, 6, 21));
+    height: 4em;
+    vertical-align: middle;
+    font-weight: bolder;
+    display: flex;
+    padding: 0 8%;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.header .logoimg{
+    width: 4em;
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.header .nav-item{
+    padding: 3%;
+}
+
+.header .nav-item:hover{
+    background-color: rgb(83, 4, 4);
+    transition: 0.3s;
+}
+
+#more{
+    position: relative;
+}
+
+#more-dropdown{
+    display: none;
+    width: 5em;
+    position: absolute;
+    left: 0;
+}
+
+#more:hover #more-dropdown{
+    display: block;
+}
+
+
+
+.title{
+    color: rgb(255, 76, 76);
+    font-size: 2em;
+    font-weight: bold;
+    background-image: url('../img/bg.png');
+    padding: 2%;
+    text-align: center;
+    font-family: 'Valorant';
+}
+
+
+@font-face
+{
+    font-family: 'Valorant';
+    src: url(../font/VALORANT-Regular.ttf),
+        url(../font/VALORANT-Regular.eot),
+        url(../font/VALORANT-Regular.woff),
+        url(../font/VALORANT-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+
+    /* font was taken from: https://fontmeme.com/fonts/valorant-font/ */
+}
+
+
+.agents{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 30px;
+    color: rgb(255, 76, 76);
+}
+
+.content
+{
+    background-image: url('../img/bg.png');
+    padding: 2%;
+}
+
+.content2
+{
+    background-image: url('../img/bg.png');
+    padding: 2%;
+}
+
+.content3
+{
+    background-image: url('../img/bg.png');
+    padding: 2%;
+}
+
+.content4
+{
+    background-image: url('../img/bg.png');
+    padding: 2%;
+}
+
+.content5
+{
+    background-image: url('../img/bg.png');
+    padding: 2%;
+}
+
+.char1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right1
+{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-left: 5%;
+}
+
+#agent1
+{
+    display: flex;
+    position: relative;
+}
+
+#slider1
+{
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#agent1-container
+{
+    position: relative;
+}
+
+.agent1
+{
+    float: left;
+}
+
+.char2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left2
+{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-right: 5%;
+}
+
+#agent2
+{
+    display: flex;
+    position: relative;
+}
+
+#slider2
+{
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#agent2-container
+{
+    position: relative;
+}
+
+.agent2
+{
+    float: left;
+}
+
+.char3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right3
+{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-left: 5%;
+}
+
+#agent3
+{
+    display: flex;
+    position: relative;
+}
+
+#slider3
+{
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#agent3-container
+{
+    position: relative;
+}
+
+.agent3
+{
+    float: left;
+}
+
+.char4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left4
+{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-right: 5%;
+}
+
+#agent4
+{
+    display: flex;
+    position: relative;
+}
+
+#slider4
+{
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#agent4-container
+{
+    position: relative;
+}
+
+.agent4
+{
+    float: left;
+}
+
+
+.char5
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right5
+{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-left: 5%;
+}
+
+#agent5
+{
+    display: flex;
+    position: relative;
+}
+
+#slider5
+{
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#agent5-container
+{
+    position: relative;
+}
+
+.agent5
+{
+    float: left;
+}
+
+#click
+{
+    cursor: pointer;
+}
+
+
+.footer{
+    background-image: linear-gradient( rgb(4, 16, 27), rgb(21, 34, 51) );
+    height: 25%;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.footer .toptext{
+    color: whitesmoke;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.footer .bottomtext{
+    margin-top: 2%;
+    font-size: 1em;
+    color:whitesmoke;
+    font-weight:bolder;
+}
+
+.footer .socialmediaimg{
+    width: 50px;
+    margin: 1%;
+}
+
+
+
+@media (max-width: 800px) {
+    .header .nav-item{
+        padding: 0%;
+        padding-left: 20%;
+    }
+
+    .char1{
+        flex-direction: column;
+    }
+
+    .right1{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    
+    .char2{
+        flex-direction: column;
+    }
+
+    .left2{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    .char3{
+        flex-direction: column;
+    }
+
+    .right3{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    .char4{
+        flex-direction: column;
+    }
+
+    .left4{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    .char5{
+        flex-direction: column;
+    }
+
+    .right5{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .content2{
+        padding-top: 25%;
+    }
+
+    .content3{
+        padding-top: 25%;
+    }
+
+    .content4{
+        padding-top: 25%;
+    }
+
+    .content5{
+        padding-top: 25%;
+    }
+}
+

@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+@font-face
+{
+    font-family: 'Valorant';
+    src: url(../font/VALORANT-Regular.ttf),
+        url(../font/VALORANT-Regular.eot),
+        url(../font/VALORANT-Regular.woff),
+        url(../font/VALORANT-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+
+    /* font was taken from: https://fontmeme.com/fonts/valorant-font/ */
+}
+
+/* header+navbar */
+.header{
+    background-image: linear-gradient(to right, rgb(21, 34, 51) , rgb(3, 6, 21));
+    height: 4em;
+    vertical-align: middle;
+    font-weight: bolder;
+    display: flex;
+    padding: 0 8%;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.header .logoimg{
+    width: 4em;
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.header .nav-item{
+    padding: 3%;
+}
+
+.header .nav-item:hover{
+    background-color: rgb(83, 4, 4);
+    transition: 0.3s;
+}
+
+#more{
+    position: relative;
+}
+
+#more-dropdown{
+    display: none;
+    width: 5em;
+    position: absolute;
+    left: 0;
+}
+
+#more:hover #more-dropdown{
+    display: block;
+}
+
+
+/*preregister*/
+
+.preregister{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 13%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    background-image: url('../img/register.png');
+    background-size: cover;
+    background-repeat: none;
+    /* image source:
+    https://www.reddit.com/r/VALORANT/comments/gva6uv/valorant_background_ultrawide/ */
+}
+
+.preregister .text{
+    text-align: center;
+}
+
+.preregister .toptext{
+    color: rgb(255, 76, 76);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.preregister .bottomtext{
+    font-size: 5em;
+    color:whitesmoke;
+    font-weight:bolder;
+    font-family: "Valorant";
+}
+
+
+.preregister .button{
+    margin-top: 10%;
+}
+
+.preregister .button .preregisterbtn{
+    padding: 1em;
+    font-size: 1em;
+    color:white;
+    background-color: rgb(83, 4, 4);
+    border-radius: 1em;
+    font-weight: bold;
+}
+
+.preregister .button .preregisterbtn:hover{
+    background-color: rgb(58, 0, 0);
+    transition: 0.5s;
+}
+
+
+/* information */
+
+.information{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    padding-right: 20%; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-repeat: none;
+    /* image source:
+    https://hdqwalls.com/valorant-logo-4k-wallpaper*/
+}
+
+.information .toptext{
+    color: rgb(255, 76, 76);
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: center;
+    font-family: "Valorant";
+}
+
+.information .bottomtext{
+    font-size: 2em;
+    color:whitesmoke;
+    font-weight:bolder;
+}
+
+
+/*agents*/
+
+.agents{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 15%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-repeat: none;
+    /* image source:
+    https://www.reddit.com/r/VALORANT/comments/gva6uv/valorant_background_ultrawide/ */
+}
+
+.agents .text{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.agents .agentsimg{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    width: 100%;
+    height: auto;
+}
+
+.agents .toptext{
+    color: rgb(255, 76, 76);
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: "Valorant";
+}
+
+.agents .bottomtext{
+    padding-top: 5%;
+    font-size: 2em;
+    color:whitesmoke;
+    font-weight:bolder;
+}
+
+.agents .button{
+    margin-top: 10%;
+}
+
+.agents .button .agentsbtn{
+    padding: 1em;
+    font-size: 1em;
+    color:white;
+    background-color: rgb(83, 4, 4);
+    border-radius: 1em;
+    font-weight: bold;
+}
+
+.agents .button .agentsbtn:hover{
+    background-color: rgb(58, 0, 0);
+    transition: 0.5s;
+}
+
+/*maps*/
+
+.maps{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-repeat: none;
+    /* image source:
+    https://www.reddit.com/r/VALORANT/comments/gva6uv/valorant_background_ultrawide/ */
+}
+
+.maps .title{
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: center;
+    font-family: "Valorant";
+}
+
+.maps .text{
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+    padding-top: 50%;
+    align-items: flex-end;
+    background-image: url('../img/map.png');
+    background-size: cover;
+    /* image source:
+    https://www.thespike.gg/news/valorant-maps-insight/13 */
+}
+
+.maps .toptext{
+    padding-left: 5%;
+    color: rgb(255, 76, 76);
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.maps .bottomtext{
+    padding-left: 5%;
+    padding-right: 25%;
+    font-size: 2em;
+    color:whitesmoke;
+    font-weight:bolder;
+}
+            
+.maps .button{
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+
+.maps .button .mapsbtn{
+    padding: 1em;
+    font-size: 1em;
+    color:white;
+    background-color: rgb(83, 4, 4);
+    border-radius: 1em;
+    font-weight: bold;
+}
+
+.maps .button .mapsbtn:hover{
+    background-color: rgb(58, 0, 0);
+    transition: 0.5s;
+}
+
+
+/* footer */
+
+.footer{
+    background-image: linear-gradient( rgb(4, 16, 27), rgb(21, 34, 51) );
+    height: 25%;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.footer .toptext{
+    color: whitesmoke;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.footer .bottomtext{
+    margin-top: 2%;
+    font-size: 1em;
+    color:whitesmoke;
+    font-weight:bolder;
+}
+
+.footer .socialmediaimg{
+    width: 50px;
+    margin: 1%;
+}
+
+
+@media (max-width: 800px) {
+    .header .nav-item{
+        padding: 0%;
+        margin-left: 20%;
+    }
+
+    .agents{
+        padding: 15%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
